@@ -20,6 +20,16 @@ O endereço direto do aplicativo não deve ser colocado no site público. A pol�
 
 Os planos são uma proposta editorial, com preços ainda não divulgados. Edite `plans` no mesmo arquivo para definir nomes, descrições, recursos e preços aprovados. `price: null` mostra “Em breve”. Defina também as condições comerciais e ajuste o aviso de planos em preparação no HTML antes de publicar uma oferta definitiva. Nenhum limite de uso, desconto ou condição contratual foi inventado.
 
+## Termos de Uso e Política de Privacidade
+
+`termos.html` e `privacidade.html` são gerados a partir de `juridico/*.md`. Não edite o HTML: altere o `.md` e rode, na raiz deste repositório:
+
+```powershell
+python juridico/gerar_paginas.py
+```
+
+Trechos `[ENTRE COLCHETES]` aparecem destacados em laranja: são dados a preencher antes de publicar (razão social, CNPJ, e-mails, preços). O script informa quantos faltam.
+
 ## Estrutura
 
 - `index.html`: textos, seções, perguntas frequentes e ilustrações SVG.
