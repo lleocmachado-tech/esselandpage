@@ -34,10 +34,10 @@
   }
   for (const plan of config.plans) {
     const card = element('article', `plan${plan.featured ? ' featured' : ''}`);
-    if (plan.featured) card.append(element('span', 'plan-badge', 'EVOLUÇÃO EM FOCO'));
+    if (plan.featured) card.append(element('span', 'plan-badge', 'MELHOR VALOR'));
     card.append(element('h3', '', plan.name), element('p', 'plan-description', plan.description),
       element('p', 'plan-price', plan.price || 'Em breve'),
-      element('p', 'plan-price-note', plan.price ? 'Condições conforme oferta comercial.' : 'Valores ainda não divulgados.'),
+      element('p', 'plan-price-note', plan.note || 'Valores ainda não divulgados.'),
       element('p', 'plan-focus', plan.focus));
     const list = element('ul');
     plan.features.forEach(feature => list.append(element('li', '', feature)));
