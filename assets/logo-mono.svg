@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 120">
+
+<g transform="translate(10,10) scale(.98)">
+
+<path d="M6 39
+  C6 32 9 28 15 23
+  L31 9
+  C39 3 48 1 59 1
+  H94
+  V12
+  C94 21 89 27 80 27
+  H61
+  C50 27 41 31 33 38
+  L23 47
+  C18 51 12 53 6 53
+  Z" fill="#1B2430"/>
+
+<path d="M22 58
+  C31 57 39 53 45 47
+  L52 40
+  C59 33 68 30 80 30
+  H90
+  V43
+  C80 43 72 46 65 52
+  L57 60
+  C49 68 40 72 29 72
+  H17
+  V62
+  C17 60 19 59 22 58
+  Z" fill="#1B2430"/>
+
+<path d="M7 86
+  C7 79 12 75 20 75
+  H28
+  C39 75 48 71 56 64
+  L66 56
+  C73 50 81 47 94 47
+  V61
+  C85 61 78 64 72 69
+  L54 84
+  C45 92 35 96 22 96
+  H7
+  Z" fill="#1B2430"/>
+
+</g>
+<text x="124" y="83"
+      font-family="Arial Black, Inter, Arial, Helvetica, sans-serif"
+      font-size="76"
+      font-weight="900"
+      letter-spacing="-3"
+      fill="#1B2430">ESSE</text>
+</svg>
