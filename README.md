@@ -4,10 +4,10 @@ Página estática independente do Streamlit, responsiva e sem bibliotecas extern
 
 ## Executar localmente
 
-Na raiz do repositório:
+Na raiz deste repositório:
 
 ```powershell
-.\.venv\Scripts\python.exe -m http.server 8502 --bind 127.0.0.1 --directory landing
+python -m http.server 8502 --bind 127.0.0.1
 ```
 
 Abra http://127.0.0.1:8502/. Para publicar, sirva o conteúdo de `landing/` como arquivos estáticos em uma hospedagem com HTTPS.
@@ -16,7 +16,7 @@ Abra http://127.0.0.1:8502/. Para publicar, sirva o conteúdo de `landing/` como
 
 Em `config.js`, `checkoutUrl` receberá a URL HTTPS do futuro serviço de compra. O plano selecionado será enviado por ID, nunca com preço ou prova de pagamento. `customerAreaUrl` receberá a URL da área autenticada do cliente. Enquanto forem `null`, a página informa que a contratação está em preparação.
 
-O endereço direto do aplicativo não deve ser colocado no site público. A política e o destino de servidor ficam em `../commerce/`, fora da raiz servida. Consulte `../commerce/README.md` para o contrato da próxima etapa: autenticação, pagamento verificado e autorização também no próprio aplicativo. Esta página não cobra nem protege a implantação atual por si só.
+O endereço direto do aplicativo não deve ser colocado no site público. A política e o destino de servidor ficam em `curva_s/commerce/` (repositório do aplicativo, ao lado desta pasta), fora da raiz servida. Consulte `../curva_s/commerce/README.md` para o contrato da próxima etapa: autenticação, pagamento verificado e autorização também no próprio aplicativo. Esta página não cobra nem protege a implantação atual por si só.
 
 Os planos são uma proposta editorial, com preços ainda não divulgados. Edite `plans` no mesmo arquivo para definir nomes, descrições, recursos e preços aprovados. `price: null` mostra “Em breve”. Defina também as condições comerciais e ajuste o aviso de planos em preparação no HTML antes de publicar uma oferta definitiva. Nenhum limite de uso, desconto ou condição contratual foi inventado.
 
