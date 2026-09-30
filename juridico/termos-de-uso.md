@@ -53,7 +53,7 @@ Este resumo ajuda na leitura. Os termos completos estão abaixo e são eles que 
 
 3.1. O acesso é feito por **chave individual**, enviada ao e-mail informado na contratação.
 
-3.2. A chave é **pessoal e intransferível**: cada chave deve ser usada por uma única pessoa. Não a compartilhe, publique ou revenda. [Se houver plano para equipes, prever quantidade de chaves por contrato.]
+3.2. A chave é **pessoal e intransferível**: cada chave deve ser usada por uma única pessoa. Não a compartilhe, publique ou revenda.
 
 3.3. Você é responsável pelo uso feito com a sua chave e deve nos avisar se suspeitar que ela foi exposta, para que a substituamos.
 
@@ -91,17 +91,23 @@ Este resumo ajuda na leitura. Os termos completos estão abaixo e são eles que 
 
 ## 7. Planos, preço e pagamento
 
-7.1. Planos, preços e condições são os apresentados no momento da contratação: [PLANO(S), VALOR, PERIODICIDADE].
+7.1. Planos, preços e condições são os apresentados no momento da contratação. Na data desta versão, todos os planos dão acesso aos mesmos recursos e diferem apenas no período de acesso:
+
+- **Mensal:** R$ 97,00, com acesso por 30 dias.
+- **Trimestral:** R$ 261,00, com acesso por 90 dias.
+- **Semestral:** R$ 468,00, com acesso por 180 dias.
+
+O pagamento é único para cada período, **sem renovação automática**. O período começa na data de envio da chave de acesso. Ao fim dele, o acesso é encerrado; para continuar, você contrata um novo período.
 
 7.2. O pagamento é feito por [PIX / BOLETO / CARTÃO / PROVEDOR DE PAGAMENTOS]. A nota fiscal é emitida conforme a legislação, para os dados informados na contratação.
 
-7.3. [Se houver período de teste: descrever duração e o que acontece ao final.]
+7.3. **Teste grátis:** você pode solicitar um período de teste de 7 dias, sem custo e sem cadastro de cartão de crédito, com os mesmos recursos dos planos pagos. Ao fim dos 7 dias, o acesso é encerrado automaticamente e nada é cobrado. Para continuar, basta contratar um dos planos.
 
 7.4. Reajustes serão comunicados com [ANTECEDÊNCIA] e valem para os períodos seguintes.
 
 ## 8. Cancelamento e reembolso
 
-8.1. Você pode cancelar quando quiser. O cancelamento evita novas cobranças e o acesso segue até o fim do período já pago. [Ajustar ao modelo de cobrança.]
+8.1. Como não há renovação automática, não existem cobranças futuras a cancelar: o acesso termina sozinho ao fim do período pago. Você pode deixar de usar o ESSE quando quiser; o acesso segue disponível até o fim do período já pago.
 
 8.2. **Garantia:** se você não estiver satisfeito, pode pedir devolução do valor pago em até [7 / 14] dias corridos da contratação, pelo e-mail [E-MAIL DE SUPORTE]. Este prazo não reduz direitos garantidos pelo Código de Defesa do Consumidor.
 
